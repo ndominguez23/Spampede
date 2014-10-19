@@ -177,7 +177,7 @@ class SpamMaze extends Maze
           setContents(rem.getRow(), rem.getCol(), OPEN);
       }
       
-      setContents(newhead.getRow(), newhead.getCol(), START);
+      setContents(newHead.getRow(), newHead.getCol(), START);
       return 1;
   }
   

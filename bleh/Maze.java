@@ -198,7 +198,7 @@ class Maze
    */
   private void clearFlags() {
     for (int row=0; row<maze.length; ++row) {
-        for (int col=0; col<maze[i].length; ++col) {
+        for (int col=0; col<maze[col].length; ++col) {
             MazeCell it = maze[row][col];
             it.visited = false;
             it.parent = null;
